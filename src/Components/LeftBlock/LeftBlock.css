@@ -1,0 +1,13 @@
+.leftBlock{
+    position: relative;
+    animation: leftBlockMove 5s infinite ease;
+}
+@keyframes leftBlockMove {
+    0%,
+    100% {
+        transform: translate(0, -100%);
+    }
+    50% {
+        transform: translate(0, 100%);
+    }
+}

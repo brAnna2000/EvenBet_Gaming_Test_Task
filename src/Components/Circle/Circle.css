@@ -1,0 +1,22 @@
+.circle {
+    opacity: 0;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #FCFF34;
+    top: 0;
+    left: 0;
+}
+
+.circleActive {
+    opacity: 1;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #FCFF34;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
